@@ -2,4 +2,4 @@
 <!-- <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> -->
 
 <!-- <p>This is my new Style app!</p> -->
-<img src="/pic.jpg" />
+<img src="/pic.jpg" width="100%" alt="Placeholder" />
