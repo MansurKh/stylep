@@ -12,5 +12,5 @@
 
 
 <img src="/pic.jpg"  alt="Пример окна" />
-
+<p> Menu </p>
 <img class="menu" src="/menu.png" alt="Меню" />
