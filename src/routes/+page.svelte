@@ -1,5 +1,16 @@
-<!-- <h1>Welcome to SvelteKit</h1> -->
-<!-- <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> -->
+<style>
+    img{
+        position: relative;
+        width: 100%;
+        
+    }
+    .menu{
+        position: fixed;
+        bottom: 0;
+    }
+</style>    
 
-<!-- <p>This is my new Style app!</p> -->
-<img src="/pic.jpg" width="100%" alt="Placeholder" />
+
+<img src="/pic.jpg"  alt="Пример окна" />
+
+<img class="menu" src="/menu.png" alt="Меню" />
