@@ -18,9 +18,11 @@
 	}
 </script>
 
+{#if count == 0}
 <button on:click={increment}>
 	Начать работу
 </button>
+{/if}
 
 {#if count > 0}
 <img src="/Outfits.png"  alt="Пример окна" />
