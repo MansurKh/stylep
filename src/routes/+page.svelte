@@ -8,20 +8,36 @@
         position: fixed;
         bottom: 0;
     }
+    .container {
+        height: 300px;
+        position: relative;
+    }
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
 </style>    
 
 <script>
-	let count = 0;
+    let count = 0;
 
-	function increment() {
-		count += 1;
-	}
+    function increment() {
+        count += 1;
+    }
 </script>
 
 {#if count == 0}
-<button on:click={increment}>
-	Начать работу
-</button>
+<div class="container">
+    <div class="vertical-center">
+        <button on:click={increment}>
+            Начать работу
+        </button>
+    </div>
+  </div>
+
 {/if}
 
 {#if count > 0}
